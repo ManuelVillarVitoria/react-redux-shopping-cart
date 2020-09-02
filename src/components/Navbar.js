@@ -1,11 +1,9 @@
 import React from 'react';
-import cover from '../assets/img/cover.jpg';
 
 
 const Home = () => {
     return (
         <header>
-        <img src={cover} alt='cover' />
         <div className="overlay"></div>
           <nav>
               <h2>Shop</h2>
